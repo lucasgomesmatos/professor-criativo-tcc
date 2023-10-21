@@ -64,7 +64,7 @@ export const Footer = () => {
           <div className="flex flex-col items-center max-[840px]:mt-4">
             <Image src={globo} alt="Logo Globo" width={48} height={48} />
             <p className="p-3 text-center text-sm text-gray-200">
-              Mundo Prof. © {new Date().getFullYear()}
+              Professor Criativo. © {new Date().getFullYear()}
               <br />
               Alguns direitos reservados.
             </p>

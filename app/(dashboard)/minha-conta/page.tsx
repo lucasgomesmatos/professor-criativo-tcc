@@ -2,7 +2,7 @@ import { Footer } from "@/components/base/footer";
 import { MainAccountUser } from "./components/main";
 
 export const metadata = {
-  title: "Minha conta - - Mundo Prof.",
+  title: "Minha conta - - Professor Criativo.",
   description: "O conhecimento é a base de tudo!!!",
 };
 

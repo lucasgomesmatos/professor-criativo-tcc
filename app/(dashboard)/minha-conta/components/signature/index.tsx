@@ -16,7 +16,7 @@ export const Signature = () => {
             <div className=" flex flex-col items-center gap-4 ">
               <Logo />
               <h1 className="text-center text-lg font-bold text-gray-50">
-                Acesso ao Mundo Prof.
+                Acesso ao Professor Criativo.
               </h1>
             </div>
             <button className="absolute right-8 top-4  -rotate-90 text-2xl font-bold md:ml-auto">

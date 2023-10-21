@@ -1,7 +1,7 @@
 import { CommunityCreatePostView } from "../components/views/CommunityCreatePostView";
 
 export const metadata = {
-  title: "Criar Postagem - Mundo Prof.",
+  title: "Criar Postagem - Professor Criativo.",
   description: "O conhecimento é a base de tudo!!!",
 };
 

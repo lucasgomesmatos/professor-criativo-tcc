@@ -2,7 +2,7 @@ import { SearchBar } from "@/components/base/searchBar";
 import { CoursesView } from "./components/views/CoursesView";
 
 export const metadata = {
-  title: "Cursos - Mundo Prof.",
+  title: "Cursos - Professor Criativo.",
   description: "O conhecimento é a base de tudo!!!",
 };
 

@@ -13,7 +13,7 @@ const roboto = Roboto({
 });
 
 export const metadata = {
-  title: "Mundo Prof.",
+  title: "Professor Criativo.",
   description: "O conhecimento é a base de tudo!!!",
 };
 

@@ -1,7 +1,7 @@
 import { CommunityUpdatePostView } from "../components/views/CommunityUpdatePostView";
 
 export const metadata = {
-  title: "Atualizar Postagem - Mundo Prof.",
+  title: "Atualizar Postagem - Professor Criativo.",
   description: "O conhecimento é a base de tudo!!!",
 };
 

@@ -2,7 +2,7 @@ import { Footer } from "@/components/base/footer";
 import { SeparatorBase } from "@/components/ui/separator";
 
 export const metadata = {
-  title: "Políticas de Cookies - Mundo Prof.",
+  title: "Políticas de Cookies - Professor Criativo.",
   description: "O conhecimento é a base de tudo!!!",
 };
 

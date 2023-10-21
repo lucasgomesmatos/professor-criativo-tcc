@@ -55,7 +55,7 @@ export default function ResetPassword() {
       email: email,
       token: token,
       password: data.password,
-      password_confirmation: data.password_confirmation
+      password_confirmation: data.password_confirmation,
     });
   };
 
@@ -64,7 +64,7 @@ export default function ResetPassword() {
       <Logo width="196px" height="101px" />
       <h1 className="text-center text-xl text-gray-50">
         Recuperar acesso ao
-        <strong> Mundo Prof.</strong>
+        <strong> Professor Criativo.</strong>
       </h1>
       <div className="m-2 h-1 w-full rounded bg-gray-500" />
       <form

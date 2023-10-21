@@ -8,7 +8,7 @@ import Link from "next/link";
 import { Title } from "./components/title";
 
 export const metadata = {
-  title: "Home - Mundo Prof.",
+  title: "Home - Professor Criativo.",
   description: "O conhecimento é a base de tudo!!!",
 };
 
@@ -45,10 +45,11 @@ export default function Home() {
               Regras da Plataforma <SvgAnimate svg={warningSvg} />
             </h1>
             <p className="mt-2">
-              Olá, Professor! Seja muito bem-vindo ao Mundo Prof. Para ter a
-              melhor experiência de utilização, existem algumas informações para
-              serem seguidas. Leia com atenção e caso tenha alguma dúvida,
-              sinta-se à vontade para entrar em contato com nosso suporte.
+              Olá, Professor! Seja muito bem-vindo ao Professor Criativo. Para
+              ter a melhor experiência de utilização, existem algumas
+              informações para serem seguidas. Leia com atenção e caso tenha
+              alguma dúvida, sinta-se à vontade para entrar em contato com nosso
+              suporte.
             </p>
             <div>
               <p className="mt-2">

@@ -18,8 +18,7 @@ export const VideoPlayer = () => {
           width="100%"
           height="100%"
           className="absolute left-0 top-0 rounded"
-          url="https://vimeo.com/856599847"
-          controls
+          url="https://www.youtube.com/watch?v=jiLlrNQ_130&ab_channel=Professora%3AAnaFlavia-Ci%C3%AAncias"
         />
       ) : (
         <div className="absolute flex h-full w-full animate-pulse items-center justify-center rounded-lg bg-gray-600">

@@ -50,7 +50,7 @@ export default function Home() {
       <Logo width="196px" height="101px" />
       <h1 className="text-center text-xl text-gray-50">
         Bem-vindo ao
-        <strong> Mundo Prof.</strong>
+        <strong> Professor Criativo.</strong>
       </h1>
       <div className="m-2 h-1 w-full rounded bg-gray-500" />
       <form

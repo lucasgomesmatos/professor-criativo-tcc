@@ -2,7 +2,7 @@ import { SearchBar } from "@/components/base/searchBar";
 import { EventsView } from "./components/views/EventsView";
 
 export const metadata = {
-  title: "Eventos - Mundo Prof.",
+  title: "Eventos - Professor Criativo.",
   description: "O conhecimento é a base de tudo!!!",
 };
 

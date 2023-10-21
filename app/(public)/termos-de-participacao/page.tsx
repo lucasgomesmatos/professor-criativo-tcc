@@ -4,7 +4,7 @@ import { ChevronLeft } from "lucide-react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Políticas de Cookies - Mundo Prof.",
+  title: "Políticas de Cookies - Professor Criativo.",
   description: "O conhecimento é a base de tudo!!!",
 };
 
@@ -20,7 +20,7 @@ export default function Cookies() {
           <span className="max-[360px]:hidden">Voltar para a comunidade</span>
         </Link>
         <h1 className="mb-2 text-xl font-bold">
-          Termos de Participação da Comunidade Mundo Prof
+          Termos de Participação da Comunidade Professor Criativo
         </h1>
         <SeparatorBase className="bg-gray-500" />
         <section className="my-4  flex flex-col gap-4">
@@ -94,7 +94,7 @@ export default function Cookies() {
             contato@mundoprof.com.br.
           </p>
           <h2 className="text-sm md:text-base">
-            9. PRESENÇA DA PROFª ANA E DO TIME MUNDO PROF NA COMUNIDADE
+            9. PRESENÇA DA PROFª ANA E DO TIME Professor Criativo NA COMUNIDADE
           </h2>
           <p className="text-sm md:text-base">
             Tanto o Profª quanto todo o time PMP também fazem parte da
@@ -121,12 +121,12 @@ export default function Cookies() {
           <p className="text-sm md:text-base">
             Você já sabe, mas não custa lembrar: seu membership tem um período
             de validade a partir da sua entrada e, depois desse período, é
-            preciso renovar para continuar a ter acesso à Comunidade Mundo Prof.
-            Ao participar do grupo você concorda com todos os termos acima,
-            demonstrando ciência de que o descumprimento de uma ou mais regras
-            pode ocasionar o afastamento e até a exclusão da Comunidade Mundo
-            Prof. A moderação se reserva o direito de moderar, excluir ou banir
-            qualquer mensagem ou participante sem aviso prévio. Se o
+            preciso renovar para continuar a ter acesso à Comunidade Professor
+            Criativo. Ao participar do grupo você concorda com todos os termos
+            acima, demonstrando ciência de que o descumprimento de uma ou mais
+            regras pode ocasionar o afastamento e até a exclusão da Comunidade
+            Mundo Prof. A moderação se reserva o direito de moderar, excluir ou
+            banir qualquer mensagem ou participante sem aviso prévio. Se o
             participante desrespeitar alguma regra será notificado
             individualmente. A qualquer momento, conforme a necessidade, essas
             regras poderão ser alteradas para melhor desempenho e bem estar dos

@@ -101,7 +101,7 @@ export const downloadCertificate = async (
 
     const pdfDoc = await PDFDocument.load(existingPdfBytes);
     const [page] = await pdfDoc.getPages();
-    const text = `Certificamos que ${nameUser} concluiu o curso sobre "${nameCourse}" na plataforma Mundo Prof. com carga horária de ${duration} h, finalizado na data ${formatDateISO(
+    const text = `Certificamos que ${nameUser} concluiu o curso sobre "${nameCourse}" na plataforma Professor Criativo. com carga horária de ${duration} h, finalizado na data ${formatDateISO(
       created_at
     )}`;
 

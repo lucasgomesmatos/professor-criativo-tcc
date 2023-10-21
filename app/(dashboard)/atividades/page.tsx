@@ -2,7 +2,7 @@ import { Breadcrumb } from "@/components/base/breadcrumb";
 import { DisciplinesView } from "./components/views/DisciplinesView";
 
 export const metadata = {
-  title: "Atividades - Mundo Prof.",
+  title: "Atividades - Professor Criativo.",
   description: "O conhecimento é a base de tudo!!!",
 };
 

@@ -2,7 +2,7 @@ import { Footer } from "@/components/base/footer";
 import { SeparatorBase } from "@/components/ui/separator";
 
 export const metadata = {
-  title: "Termos de uso - Mundo Prof.",
+  title: "Termos de uso - Professor Criativo.",
   description: "O conhecimento é a base de tudo!!!",
 };
 

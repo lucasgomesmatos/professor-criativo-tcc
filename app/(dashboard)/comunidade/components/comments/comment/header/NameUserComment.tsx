@@ -11,7 +11,7 @@ export const NameUserComment = ({ admin, nameUser }: NameUserCommentProps) => {
     <div className="flex flex-wrap items-center gap-2">
       {admin && (
         <Badge className=" bg-purple-300 font-bold text-gray-900 hover:bg-purple-300">
-          Mundo Prof.
+          Professor Criativo.
         </Badge>
       )}
       <span className="text-xs text-gray-200">{nameUser}</span>

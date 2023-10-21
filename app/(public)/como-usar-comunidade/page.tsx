@@ -4,7 +4,7 @@ import { ChevronLeft } from "lucide-react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Políticas de Cookies - Mundo Prof.",
+  title: "Políticas de Cookies - Professor Criativo.",
   description: "O conhecimento é a base de tudo!!!",
 };
 
@@ -20,18 +20,18 @@ export default function Cookies() {
           <span className="max-[360px]:hidden">Voltar para a comunidade</span>
         </Link>
         <h1 className="mb-2 text-xl font-bold">
-          Como Usar a Comunidade Mundo Prof
+          Como Usar a Comunidade Professor Criativo
         </h1>
         <SeparatorBase className="bg-gray-500" />
         <section className="my-4  mb-96 flex flex-1 flex-col">
           <h2 className="text-sm md:text-base">1. CONCEITO DE COMUNIDADE</h2>
 
           <p className="text-sm md:text-base">
-            A Comunidade Mundo Prof é o melhor lugar do mundo para você aprender
-            estratégias de ensino. Com experiências e ser e melhorar os seus
-            resultados em sala de aula: use-a com sabedoria e responsabilidade.
-            O grupo é formado por centenas de professores e precisamos da ajuda
-            de todos para que a experiência seja melhor.
+            A Comunidade Professor Criativo é o melhor lugar do mundo para você
+            aprender estratégias de ensino. Com experiências e ser e melhorar os
+            seus resultados em sala de aula: use-a com sabedoria e
+            responsabilidade. O grupo é formado por centenas de professores e
+            precisamos da ajuda de todos para que a experiência seja melhor.
           </p>
           <h2 className="my-4 font-bold">
             Como extrair o melhor da comunidade

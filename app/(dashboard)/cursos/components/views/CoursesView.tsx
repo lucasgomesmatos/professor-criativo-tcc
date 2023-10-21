@@ -71,7 +71,7 @@ export const CoursesView = () => {
                       orientation="vertical"
                     />
                     <p
-                      data-size={Boolean(course.name.length > 60)}
+                      data-size={Boolean(course.name?.length > 60)}
                       className="text-base font-semibold tracking-wide data-[size=true]:text-sm"
                     >
                       {course.name}

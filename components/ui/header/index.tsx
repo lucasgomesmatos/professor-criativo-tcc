@@ -44,7 +44,7 @@ export const Header = () => {
         <div className="z-50 flex items-center gap-6">
           <Link href="/home">
             {isWide ? (
-              <Logo width="156px" height="67px" />
+              <Logo width="126px" height="45px" />
             ) : (
               <Image src={globo} alt="Logo Globo" width={56} height={56} />
             )}

@@ -2,7 +2,7 @@ import { NavBar } from "./components/navbar";
 import { CertificateView } from "./components/views/CertificateView";
 
 export const metadata = {
-  title: "Certificados - Mundo Prof.",
+  title: "Certificados - Professor Criativo.",
   description: "O conhecimento é a base de tudo!!!",
 };
 

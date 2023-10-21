@@ -2,7 +2,7 @@ import { NavBar } from "./components/navBar";
 import { CommunityView } from "./components/views/CommunityView";
 
 export const metadata = {
-  title: "Comunidade - Mundo Prof.",
+  title: "Comunidade - Professor Criativo.",
   description: "O conhecimento é a base de tudo!!!",
 };
 
