@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+*::-webkit-scrollbar {
+  width: 14px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #121215;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #b07cf8;
+  border-radius: 20px;
+  border: 2px solid #121215;
+}
+
+.container {
+  @apply m-auto flex h-full max-w-5xl flex-col justify-between px-4;
+}
+.active-link {
+  @apply relative flex justify-center text-purple-300 after:absolute after:top-[50px] after:h-[2px] after:w-full after:bg-purple-300;
+}
+.active-link-mobile {
+  @apply relative flex  text-purple-300 before:absolute before:-left-4 before:h-full before:w-1 before:bg-purple-600;
+}
+.active {
+  @apply before:absolute before:-left-0 before:h-6 before:w-1  before:bg-purple-300;
+}
+
+.link-nav {
+  @apply relative w-full cursor-pointer rounded p-4 font-bold tracking-wide  transition-colors hover:text-purple-300;
+}
+.link-footer {
+  @apply relative flex cursor-pointer items-center gap-1 pl-4 transition-colors before:absolute before:-left-4 before:ml-4 before:h-2 before:w-2 before:rounded-full before:bg-purple-300 hover:text-purple-300;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.animate-spin {
+  animation: spin 20s linear infinite;
+}
+
+#container {
+  width: 100%;
+  flex: 1;
+}
